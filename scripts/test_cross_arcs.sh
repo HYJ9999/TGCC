@@ -1,0 +1,1 @@
+python evaluator/test_nc_arcs.py --method TGCC --dataset reddit --r 0.0005 --carch=1  --seed=40

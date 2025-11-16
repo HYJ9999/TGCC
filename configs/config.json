@@ -1,0 +1,871 @@
+{ "finance-r0.025":{
+    "dataset": "finance",
+    "data_dir": "data",
+    
+    "seed": 15,
+  
+    "lam": 0.5,
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    "dis_metric": "ours",
+
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.005,
+    "lr_feat": 0.005,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.025,
+    "alpha": 0.001,
+    
+    "use_sinkhorn": false,
+ 
+    "debug": 0,
+    "sgc": 1,
+    "inner": 15,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "verbose": true,
+    "log_dir": "logs"
+  },
+  "finance-r0.025-1":{
+    "dataset": "finance",
+    "data_dir": "data",
+  
+    "seed": 40,
+    
+    "lam": 0.5,
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    "dis_metric": "ours",
+
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.025,
+    "alpha": 0.001,
+
+    "use_sinkhorn": false,
+   
+    "debug": 0,
+    "sgc": 1,
+    "inner": 15,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "verbose": true,
+    "log_dir": "logs"
+  },
+   "finance-r0.05-1":{
+    "dataset": "finance",
+    "data_dir": "data",
+    
+    "seed": 40,
+  
+   
+    "lam": 0.5,
+   
+    "epsilon": 0.01,
+    "scope_flag": 1,
+   
+    "dis_metric": "ours",
+   
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.05,
+    "alpha": 0.001,
+    
+    "use_sinkhorn": false,
+   
+    "debug": 0,
+    "sgc": 1,
+    "inner": 15,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "verbose": true,
+    "log_dir": "logs"
+  },
+  "finance-r0.05":{
+    "dataset": "finance",
+    "data_dir": "data",
+    
+   
+    "seed": 15,
+   
+  
+    "lam": 0.5,
+   
+    "epsilon": 0.01,
+    "scope_flag": 1,
+  
+    "dis_metric": "ours",
+    
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.05,
+    "alpha": 0.001,
+    
+    "use_sinkhorn": false,
+    
+    "debug": 0,
+    "sgc": 1,
+    "inner": 15,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+    
+    "verbose": true,
+    "log_dir": "logs"
+  },
+  "finance-r0.075-1":{
+    "dataset": "finance",
+    "data_dir": "data",
+    
+    "seed": 40,
+   
+    "lam": 0.5,
+    
+    "epsilon": 0.01,
+    "scope_flag": 1,
+   
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.075,
+    "alpha": 0.001,
+   
+    "use_sinkhorn": false,
+   
+    "debug": 0,
+    "sgc": 1,
+    "inner": 15,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+  
+    "verbose": true,
+    "log_dir": "logs"
+  },
+  "finance-r0.075":{
+    "dataset": "finance",
+    "data_dir": "data",
+   
+    
+    "seed": 15,
+    
+    "lam": 0.5,
+   
+    "epsilon": 0.01,
+    "scope_flag": 1,
+   
+    "dis_metric": "ours",
+    
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.075,
+    "alpha": 0.001,
+    
+    "use_sinkhorn": false,
+   
+    "debug": 0,
+    "sgc": 1,
+    "inner": 15,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "verbose": true,
+    "log_dir": "logs"
+  },
+  "finance-r0.1":{
+    "dataset": "finance",
+    "data_dir": "data",
+   
+    "seed": 15,
+   
+    "lam": 0.5,
+   
+    "epsilon": 0.01,
+    "scope_flag": 1,
+   
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.1,
+    "alpha": 0.001,
+   
+    "use_sinkhorn": false,
+    
+    "debug": 0,
+    "sgc": 1,
+    "inner": 15,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "verbose": true,
+    "log_dir": "logs"
+  },
+  "cora-r0.25":{
+    "dataset": "cora",
+    "data_dir": "data",
+   
+    "seed": 42,
+    
+    "lam": 0.5,
+   
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.0001,
+    "lr_feat": 0.0001,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.25,
+    "alpha": 0.001,
+    
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 0,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "log_dir": "logs",
+    "verbose": true
+  },
+   "cora-r0.5":{
+    "dataset": "cora",
+    "data_dir": "data",
+    
+    "seed": 42,
+    
+    "lam": 0.5,
+   
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    
+    
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.0001,
+    "lr_feat": 0.0001,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.5,
+    "alpha": 0.001,
+    
+    
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 0,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "log_dir": "logs",
+    "verbose": true
+  },
+   "cora-r1.0":{
+    "dataset": "cora",
+    "data_dir": "data",
+    
+    "seed": 42,
+    
+    "lam": 0.5,
+   
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.0001,
+    "lr_feat": 0.0001,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 1.0,
+    "alpha": 0.001,
+   
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 0,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "log_dir": "logs",
+    "verbose": true
+  },
+    "citeseer-r0.25":{
+    "dataset": "citeseer",
+    
+ 
+    "lam": 0.1,
+   
+    "epsilon": 0.1,
+    "scope_flag": 1,
+   
+    "dis_metric": "ours",
+    "epochs": 600,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.0001,
+    "lr_feat": 0.0001,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.25,  
+    "alpha": 0.001,
+   
+    "use_sinkhorn": false,
+    
+    "debug": 0,
+    "sgc": 1,
+    "inner": 0,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+ 
+    "log_dir": "logs",
+    "verbose": true
+  },
+    "citeseer-r1.0":{
+    "dataset": "citeseer",
+    
+   
+    "lam": 0.1,
+    
+    "epsilon": 0.1,
+    "scope_flag": 1,
+   
+    "dis_metric": "ours",
+    "epochs": 600,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.0001,
+    "lr_feat": 0.0001,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 1.0,  
+    "alpha": 0.001,
+    
+    "use_sinkhorn": false,
+   
+   
+    "debug": 0,
+    "sgc": 1,
+    "inner": 0,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+   
+    "log_dir": "logs",
+    "verbose": true
+  },   
+   "citeseer-r0.5":{
+    "dataset": "citeseer",
+   
+   
+    
+    "lam": 0.1,
+    "casual_epochs": 40,
+    "turn": 5,
+    "epsilon": 0.1,
+    "scope_flag": 1,
+   
+    "dis_metric": "ours",
+    "epochs": 600,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.0001,
+    "lr_feat": 0.0001,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.5,  
+    "alpha": 0.001,
+    
+    "use_sinkhorn": false,
+    
+    
+    "debug": 0,
+    "sgc": 1,
+    "inner": 0,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+   
+    "log_dir": "logs",
+    "verbose": true
+  },
+  "ogbn-arxiv-r0.005":{
+    "dataset": "ogbn-arxiv",
+    "data_dir": "data",
+    
+    "lam": 0.5,
+  
+    "epsilon": 0.01,
+    "scope_flag": 1,
+  
+    "dis_metric": "ours",
+
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.005,
+    "alpha": 0.001,
+    
+  
+   
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 3,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+
+    "log_dir": "logs",
+    "verbose": true
+  },
+  "ogbn-arxiv-r0.001":{
+    "dataset": "ogbn-arxiv",
+    "data_dir": "data",
+   
+  
+    "lam": 0.5,
+
+    "epsilon": 0.01,
+    "scope_flag": 1,
+
+    "dis_metric": "ours",
+    
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.001,
+    "alpha": 0.001,
+   
+  
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 2,
+    "inner": 0,
+    "outer": 10,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+    
+   
+    "log_dir": "logs",
+    "verbose": true
+  },
+    "ogbn-arxiv-r0.01":{
+    "dataset": "ogbn-arxiv",
+    "data_dir": "data",
+    
+    "lam": 0.5,
+   
+    "scope_flag": 1,
+  
+    "dis_metric": "ours",
+    
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.01,
+    "lr_feat": 0.01,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.01,
+    "alpha": 0.001,
+   
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 3,
+    "outer": 20,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+    
+    
+    "log_dir": "logs",
+    "verbose": true
+  },
+
+    "flickr-r0.001":{
+    "dataset": "flickr",
+  
+    "lam": 0.5,
+    
+    "epsilon": 0.01,
+    "scope_flag": 1,
+
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.005,
+    "lr_feat": 0.005,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.001,
+    "alpha": 0.0,
+    
+    "use_sinkhorn": false,
+ 
+    
+    "debug": 0,
+    "sgc": 2,
+    "inner": 1,
+    "outer": 10,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+  
+    "log_dir": "logs",
+    "verbose": true
+  },
+  "flickr-r0.01":{
+    "dataset": "flickr",
+   
+    "lam": 0.5,
+    
+    "epsilon": 0.01,
+    "scope_flag": 1,
+
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.005,
+    "lr_feat": 0.005,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.01,
+    "alpha": 0.0,
+   
+    "use_sinkhorn": false,
+  
+   
+    "debug": 0,
+    "sgc": 2,
+    "inner": 1,
+    "outer": 10,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+   
+    "log_dir": "logs",
+    "verbose": true
+  },
+  "flickr-r0.005":{
+    "dataset": "flickr",
+  
+    "lam": 0.5,
+    
+    "epsilon": 0.01,
+    "scope_flag": 1,
+
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.005,
+    "lr_feat": 0.005,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.005,
+    "alpha": 0.0,
+   
+    "use_sinkhorn": false,
+  
+    "debug": 0,
+    "sgc": 2,
+    "inner": 1,
+    "outer": 10,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1.0,
+    "one_step": 0,
+    
+    "log_dir": "logs",
+    "verbose": true
+  },
+  "reddit-r0.0005":{
+    "dataset": "reddit",
+    
+    "lam": 0.5,
+  
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.1,
+    "lr_feat": 0.1,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.0005,
+    "alpha": 0,
+   
+    
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 1,
+    "outer": 10,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1,
+    "one_step": 0,
+    
+    "log_dir": "logs",
+    "verbose": true
+  },
+  "reddit-r0.005":{
+    "dataset": "reddit",
+    
+    "lam": 0.5,
+    
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.1,
+    "lr_feat": 0.1,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.005,
+    "alpha": 0,
+   
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 1,
+    "outer": 10,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1,
+    "one_step": 0,
+    
+    "log_dir": "logs",
+    "verbose": true
+  },
+  "reddit-r0.002":{
+    "dataset": "reddit",
+    
+    "lam": 0.5,
+    
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.1,
+    "lr_feat": 0.1,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.002,
+    "alpha": 0,
+    
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 1,
+    "outer": 10,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1,
+    "one_step": 0,
+   
+    "log_dir": "logs",
+    "verbose": true
+  },
+  "reddit-r0.001":{
+    "dataset": "reddit",
+   
+    "lam": 0.5,
+    
+    "epsilon": 0.01,
+    "scope_flag": 1,
+    "dis_metric": "ours",
+    "epochs": 1000,
+    "nlayers": 2,
+    "hidden": 256,
+    "lr_adj": 0.1,
+    "lr_feat": 0.1,
+    "lr_model": 0.01,
+    "weight_decay": 0.0,
+    "dropout": 0.0,
+    "normalize_features": true,
+    "keep_ratio": 1.0,
+    "reduction_rate": 0.001,
+    "alpha": 0,
+   
+    "use_sinkhorn": false,
+    "debug": 0,
+    "sgc": 1,
+    "inner": 1,
+    "outer": 10,
+    "option": 0,
+    "save": 1,
+    "label_rate": 1,
+    "one_step": 0,
+   
+    "log_dir": "logs",
+    "verbose": true
+  }
+
+}
